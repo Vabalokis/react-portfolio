@@ -1,0 +1,45 @@
+.Info {
+  padding: 15px 0;
+  margin-bottom: 15px;
+  background: rgb(255, 224, 0);
+  box-shadow: 1px 1px 10px black;
+}
+
+.Info a {
+  padding: 10px;
+  text-align: center !important;
+  color: green;
+}
+
+.Info a:hover {
+  color: rgb(135, 228, 135);
+}
+
+.Info p {
+  padding: 10px;
+  font-size: 1.5em;
+}
+
+.Info h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.Info li {
+  font-size: 1.4em;
+}
+
+.downloadLink {
+  font-size: 20px;
+  min-width: 80%;
+  background: rgb(255, 255, 255);
+}
+
+.linkContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.col-mr-2pr {
+  margin-left: 2%;
+}

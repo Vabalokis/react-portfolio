@@ -1,0 +1,11 @@
+.Contact {
+  margin-top: 15px;
+  padding: 15px 0;
+  margin-bottom: 15px;
+  background: rgb(255, 224, 0);
+  box-shadow: 1px 1px 10px black;
+}
+
+.Contact_lower {
+  margin-top: 35px;
+}

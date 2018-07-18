@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz");
+
+.Navbar {
+  text-align: center;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  margin-top: 2vh;
+}
+
+.Navbar a {
+  text-decoration: none;
+  color: rgb(81, 95, 0);
+  font-size: 60px;
+}
+
+.Navbar a:hover {
+  color: rgb(142, 167, 0);
+  transition: color 0.3s ease-out;
+  border-bottom: 3px solid rgb(142, 167, 0);
+  transition: border-bottom 0.2s ease-out;
+}
+
+.nav_active {
+  color: rgb(142, 167, 0) !important;
+  border-bottom: 3px solid rgb(142, 167, 0);
+  transition: border-bottom 0.2s ease-out;
+}

@@ -1,0 +1,94 @@
+.Project .tag {
+  list-style: none;
+  display: inline-block;
+  margin: 5px;
+}
+
+.right i {
+  color: rgba(235, 255, 59, 0.1);
+  position: absolute;
+  top: 30%;
+  right: 30%;
+  font-size: 6em;
+}
+
+.left i {
+  color: rgba(235, 255, 59, 0.1);
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  font-size: 6em;
+}
+
+.Project .tag {
+  color: rgb(137, 151, 65);
+  border-radius: 15px;
+  padding: 5px 10px;
+  background: rgb(255, 255, 255);
+}
+
+.Project {
+  text-align: center;
+  padding: 15px 0;
+  margin-bottom: 15px;
+  background: rgb(255, 224, 0);
+  box-shadow: 1px 1px 10px black;
+}
+
+.Project ul {
+  padding: 0;
+  margin-top: 10px;
+}
+
+.piccont {
+  position: relative;
+  width: 80%;
+  margin: auto;
+}
+
+.piccont img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.lft {
+  position: absolute;
+  right: 0;
+  width: 50%;
+  background: rgba(0, 129, 0, 0.15);
+  top: 0;
+  height: 100%;
+  transition: all 0.5s ease-out;
+}
+
+.rgt {
+  position: absolute;
+  left: 0;
+  width: 50%;
+  background: rgba(0, 128, 0, 0.15);
+  top: 0;
+  height: 100%;
+  transition: all 0.5s ease-out;
+}
+
+.lft:hover {
+  background: rgba(5, 58, 0, 0.8);
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+
+.lft:hover i {
+  color: rgba(235, 255, 59, 0.4);
+  transition: all 0.2s ease-in;
+}
+
+.rgt:hover {
+  background: rgba(5, 58, 0, 0.8);
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+
+.rgt:hover i {
+  color: rgba(235, 255, 59, 0.4);
+  transition: all 0.2s ease-in;
+}

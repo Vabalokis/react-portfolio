@@ -1,0 +1,11 @@
+.Footer {
+  background: rgb(247, 192, 13);
+  width: 100%;
+  text-align: center;
+  height: 35px;
+}
+
+.Footer img {
+  height: 30px;
+  padding: 5px 0;
+}

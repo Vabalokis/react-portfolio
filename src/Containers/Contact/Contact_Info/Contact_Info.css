@@ -1,0 +1,18 @@
+.Contact_Info {
+  text-align: center;
+  margin-top: 10px;
+}
+.Contact_Info p {
+  margin-top: 5px;
+  font-size: 18px;
+}
+
+.Contact_Info a {
+  margin-top: 5px;
+  font-size: 25px;
+  color: green;
+}
+
+.Contact_Info a:hover {
+  color: rgb(135, 228, 135);
+}
