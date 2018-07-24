@@ -1,4 +1,4 @@
-### Remade my portfolio page for better understanding of react.
+### Remade portfolio website in react.js
 
 Technologies used:
 ```
